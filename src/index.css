@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --yellow: #FFCF21;
+    --yellow-dark: #E8B800;
+    --black: #0D0D0D;
+    --gray-soft: #F6F5F2;
+  }
+
+  * { box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Manrope', system-ui, sans-serif;
+    color: #0D0D0D;
+    background: #ffffff;
+    line-height: 1.65;
+    font-size: 16px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Unbounded', system-ui, sans-serif;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .container-main {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  .section-padding {
+    padding: 96px 0;
+  }
+
+  .section-title {
+    font-family: 'Unbounded', system-ui, sans-serif;
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    color: #0D0D0D;
+  }
+
+  .section-label {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #9A9A9A;
+  }
+
+  @media (max-width: 768px) {
+    .section-padding { padding: 64px 0; }
+    .container-main { padding: 0 20px; }
+  }
+  @media (max-width: 480px) {
+    .section-padding { padding: 48px 0; }
+    .container-main { padding: 0 16px; }
+  }
+}
