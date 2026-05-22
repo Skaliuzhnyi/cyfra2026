@@ -76,7 +76,7 @@ export function ReviewsPage() {
           </motion.p>
           <p className="text-gray-500">На основі 312 відгуків</p>
           <motion.a
-            href="https://g.page/cyfra-service"
+            href="https://share.google/5seVJUi6jDBsRyDX5"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0 }}

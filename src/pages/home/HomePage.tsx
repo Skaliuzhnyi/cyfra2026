@@ -24,7 +24,7 @@ function StatCounter({ value, suffix = '', label }: { value: number; suffix?: st
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className="text-center"
     >
-      <div className="text-[2.6rem] md:text-[3.2rem] font-black leading-none text-white mb-1.5" style={{ fontFamily: 'Unbounded, sans-serif', letterSpacing: '-0.03em' }}>
+      <div className="text-[2.6rem] md:text-[2.2rem] font-black leading-none text-white mb-1.5" style={{ fontFamily: 'Unbounded, sans-serif', letterSpacing: '-0.03em' }}>
         {value.toLocaleString('uk-UA')}{suffix}
       </div>
       <div className="text-[12px] text-white/45 font-semibold tracking-wide uppercase">{label}</div>
@@ -328,7 +328,7 @@ export function HomePage() {
           <div className="grid lg:grid-cols-[1fr_520px] gap-14 items-start">
             <Animated variants={slideLeft}>
               <p className="section-label text-white/35 mb-4">Відгуки</p>
-              <h2 className="section-title text-white mb-5">
+              <h2 className="text-white mb-5 text-[24px]">
                 Що кажуть<br />клієнти
               </h2>
               <div className="flex items-center gap-2 mb-6">
@@ -338,7 +338,7 @@ export function HomePage() {
                 <span className="text-white/50 text-[14px] ml-1 font-semibold">4.9 · 312 відгуків</span>
               </div>
               <a
-                href="https://g.page/cyfra-service"
+                href="https://share.google/5seVJUi6jDBsRyDX5"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-[13px] font-semibold text-white/50 hover:text-white transition-colors border border-white/[0.1] px-4 py-2 rounded-xl hover:border-white/30"

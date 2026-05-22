@@ -9,7 +9,7 @@ export function Footer() {
   return (
     <footer className="bg-[#0D0D0D] text-white">
       {/* Top CTA strip */}
-      <div className="border-b border-white/[0.07]">
+      <div className="border-b border-white/[0.07] px-10 py-10">
         <div className="container-main py-10">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>
@@ -39,7 +39,7 @@ export function Footer() {
 
       {/* Main footer grid */}
       <div className="container-main py-14">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 lg:gap-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 lg:gap-16 px-8 py-8">
           {/* Brand col */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2.5 mb-5">
