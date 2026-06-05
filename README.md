@@ -541,6 +541,12 @@ These aren't accidental good practices — they're the result of understanding w
 
 <div align="center">
 
-**[LinkedIn](#)** · **[Portfolio](#)** · **[Email](#)**
+## 📞 Connect
+
+- **Portfolio:** [sergdev.website](https://sergdev.website)
+- **GitHub:** [github.com/skaliuzhnyi](https://github.com/skaliuzhnyi)
+- **Email:** flskaliuzhnyi@gmail.com
+- **LinkedIn:** [linkedin.com/in/skaliuzhnyi](https://linkedin.com/in/skaliuzhnyi)
+
 
 </div>
