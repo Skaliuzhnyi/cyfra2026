@@ -541,6 +541,8 @@ These aren't accidental good practices — they're the result of understanding w
 
 <div align="center">
 
+---
+
 ## 📞 Connect
 
 - **Portfolio:** [sergdev.website](https://sergdev.website)
@@ -548,5 +550,6 @@ These aren't accidental good practices — they're the result of understanding w
 - **Email:** flskaliuzhnyi@gmail.com
 - **LinkedIn:** [linkedin.com/in/skaliuzhnyi](https://linkedin.com/in/skaliuzhnyi)
 
+---
 
 </div>
